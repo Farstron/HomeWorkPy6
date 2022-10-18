@@ -1,3 +1,4 @@
+from functools import reduce
 #Напишите программу, удаляющую из текста все слова, содержащие ""абв""
 
 print(*list(filter(lambda x: not 'абв' in x, input(" Введите текст на проверку:\n").split(' '))))
